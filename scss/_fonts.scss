@@ -2,14 +2,14 @@
     font-family: "Criteria";
     src:
       local("Criteria"),
-      url("/fonts/Fontspring-DEMO-criteriacf-bold.otf") format("opentype");
+      url("../fonts/Fontspring-DEMO-criteriacf-bold.otf") format("opentype");
       font-weight: 700;
   }
   @font-face {
     font-family: "Criteria";
     src:
       local("Criteria"),
-      url("/fonts/Fontspring-DEMO-criteriacf-regular.otf") format("opentype");
+      url("../fonts/Fontspring-DEMO-criteriacf-regular.otf") format("opentype");
       font-weight: 400;
   }
   
@@ -17,7 +17,7 @@
     font-family: "Criteria";
     src:
       local("Criteria"),
-      url("/fonts/Fontspring-DEMO-criteriacf-medium.otf") format("opentype");
+      url("../fonts/Fontspring-DEMO-criteriacf-medium.otf") format("opentype");
       font-weight: 500;
   }
   
