@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagushPahan</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:regular,italic,700,700italic" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="header__nav">
+                        <div class="header__nav-item">
+                            <ion-icon name="globe-outline" class="header__nav-icon"></ion-icon>
+                            <a href="#about" class="header__nav-link">Socials</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <ion-icon name="git-compare-outline" class="header__nav-icon"></ion-icon>
+                            <a href="#socials" class="header__nav-link">Technologies</a>
+                        </div>
+                        <div class="header__nav-item">
+                            <ion-icon name="image-outline" class="header__nav-icon"></ion-icon>
+                            <a href="#tech" class="header__nav-link">Portfolio</a>
+                        </div>
+                    </nav>
+                    <div class="header__night">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon header__sun" viewBox="0 0 512 512">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                                stroke-width="32"
+                                d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
+                            <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round"
+                                stroke-miterlimit="10" stroke-width="32" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon header__moon header__svg--inactive" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+           <section class="about" id="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__options">
+                            <div class="about__image">
+
+                            </div>
+                            <div class="about__positions">
+                                <h1 class="about__name">Magush Magomedov</h3>
+                                <h6 class="about__job change__color">Frontend Developer</h6>
+                            </div>
+                        </div>
+                        <p class="about__text about__text-first change__color">
+                            Hi! I’m <span>Magush Magomedov.</span> I live in  Moscow, Russia and I am a developer,  
+                        </p>
+                        <p class="about__text about__text-second change__color">
+                            designer and a very lazy person. I primary specialize in web design and
+                        </p>
+                        <p class="about__text about__text-third change__color">
+                            development, but I also sometimes create Minecraft mods or Discord bots.
+                        </p>
+                        
+                    </div>
+                </div>
+           </section>
+           <section class="socials" id="socials">
+            <div class="container">
+                <div class="socials__inner">
+                    <h2 class="socials__title title">
+                        <span>Socials</span>
+                        <ion-icon name="globe-outline" class="socials__title-icon "></ion-icon>
+                    </h2>
+                    <div class="socials__list">
+                        <a href="#" class="socials__link">
+                            <i class="fa-brands fa-telegram change__color"></i>
+                        </a>
+                        <a href="#" class="socials__link">
+                            <i class="fa-brands fa-vk change__color"></i>
+                        </a>
+                        <a href="#" class="socials__link">
+                            <i class="fa-brands fa-github change__color"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+           </section>
+           <section class="tech" id="tech">
+                <div class="container">
+                    <div class="tech__inner">
+                        <h2 class="tech__title title ">
+                           
+                            <span>Technologies</span>
+                            <ion-icon name="git-compare-outline" class="title__icon"></ion-icon>
+                        </h2>
+                        <div class="tech__languages">
+                            <h4 class="tech__languages-title change__color">Languages</h4>
+                            <ul class="tech__languages-list">
+                                <li class="tech__languages-item"><i class="fa-brands fa-square-js tech__icon change__color" ></i></li>
+                                <li class="tech__languages-item"><i class="fa-brands fa-html5 tech__icon change__color"></i></li>
+                                <li class="tech__languages-item"><i class="fa-brands fa-sass tech__icon change__color"></i></li>
+                                <li class="tech__languages-item"><i class="fa-brands fa-python tech__icon change__color"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </section>
+           <section class="portfolio">
+                <div class="container">
+                    <div class="portfolio__inner">
+                        <h2 class="portfolio__title title">
+
+                            <span>Portfolio</span>
+                            <ion-icon name="image-outline" class=" title__icon"></ion-icon>
+                        </h2>
+                        <div class="portfolio__works">
+                                <a href="https://meteorify-weather.vercel.app/#/current-location" class="portfolio__works-item " target="_blank">
+                                   <div class="portfolio__works-content">
+                                        <h4 class="portfolio__works-title change__color">Meteorify</h4>
+                                        <p class="portfolio__works-desc change__color">Meteorify is an application that shows the weather forecast anywhere in the world fucking</p>
+                                        <ul class="portfolio__works-stack">
+                                            <li class="portfolio__works-stack-item ">html</li>
+                                            <li class="portfolio__works-stack-item ">css</li>
+                                            <li class="portfolio__works-stack-item ">JavaScript</li>
+                                        </ul>
+                                   </div>
+                                   <i class="fa-solid fa-cloud portfolio__works-icon"></i>
+                                </a>
+                                <a href="https://meteorify-weather.vercel.app/#/current-location" class="portfolio__works-item" target="_blank">
+                                   <div class="portfolio__works-content">
+                                        <h4 class="portfolio__works-title change__color">Meteorify</h4>
+                                        <p class="portfolio__works-desc change__color">Meteorifai is an application that shows the weather forecast anywhere in the world fucking<p>
+                                        <ul class="portfolio__works-stack">
+                                            <li class="portfolio__works-stack-item">html</li>
+                                            <li class="portfolio__works-stack-item">css</li>
+                                            <li class="portfolio__works-stack-item">JavaScript</li>
+                                        </ul>
+                                   </div>
+                                   <i class="fa-solid fa-cloud portfolio__works-icon"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+           </section>
+        </main>
+    </div>
+    <script src="./js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/715c42715d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

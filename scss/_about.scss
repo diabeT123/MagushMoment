@@ -1,0 +1,92 @@
+.about {
+    color: $whitecolor;
+    font-family: Anonymous Pro ;
+    padding: 240px 0 100px;
+}
+
+.about__inner {
+    max-width: 900px;
+}
+.about__options {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.about__image {
+    border: 5px solid $whitecolor;
+    max-width: 200px;
+    height: 200px;
+    width: 100%;
+    border-radius: 50%;
+    // background: url("../images/avatar1.jpg") 0 0 / 100% no-repeat;
+    transition: all .3s;
+    animation: changeavatar 10s infinite ease-in;
+    filter: grayscale(100%) contrast(120%);
+}
+@keyframes changeavatar
+{
+    0%{
+        background: url("../images/avatar1.jpg") 0 0 / 100% no-repeat;
+    }
+    25%{
+        background: url("../images/avatar3.jpg") 0 0 / 100% no-repeat;
+    }
+    50%{
+        background: url("../images/avatar2.jpg") 0 0 / 100% no-repeat;
+    }
+    75%{
+        background: url("../images/avatar4.jpg") 0 0 / 100% no-repeat;
+    }
+    100%{
+        background: url("../images/avatar1.jpg") 0 0 / 100% no-repeat;
+    }
+    
+}
+
+.about__positions {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about__name {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: Criteria;
+    color: $redcolor;
+}
+.about__job {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.about__text {
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 22px;
+
+    span{
+        color: $redcolor;
+        font-weight: 700;
+    }
+}
+.about__text-first{
+    animation: typewriter 2s steps(44) 1s 1 normal both;
+}
+.about__text-second{
+    animation: typewriter 2s steps(44) 3s 1 normal both;
+}
+.about__text-third{
+    animation: typewriter 2s steps(44) 5s 1 normal both;
+}
+
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 900px;
+    }
+  }

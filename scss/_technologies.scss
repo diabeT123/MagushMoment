@@ -1,0 +1,31 @@
+.tech {
+    padding: 100px 0 0 0;
+    font-family: Anonymous Pro;
+}
+
+.tech__inner {
+}
+.tech__title {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tech__languages {
+}
+.tech__languages-title {
+    font-size: 25px;
+    color: $whitecolor;
+    margin-bottom: 20px;
+}
+.tech__languages-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tech__languages-item {
+}
+.tech__icon{
+    font-size: 35px;
+    color: $whitecolor;
+}
